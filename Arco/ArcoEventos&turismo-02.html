@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arco - Eventos & Turismo</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Inclui a folha de estilo da biblioteca AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
         body {
@@ -61,24 +63,24 @@
     <main class="container-snap">
     
         <!-- Secção 1: Eventos -->
-        <section id="eventos" class="section-snap flex flex-col items-center justify-center p-16 bg-gray-100 dark:bg-gray-900 transition-all duration-500">
-            <div class="max-w-4xl text-center">
+        <section id="eventos" class="section-snap flex flex-col items-center justify-center p-8 bg-gray-100 dark:bg-gray-900 transition-all duration-500">
+            <div class="max-w-4xl text-center" data-aos="fade-up">
                 <h1 class="text-4xl md:text-5xl font-extrabold text-gray-900 dark:text-white mb-6">Galeria de Eventos</h1>
                 <p class="text-lg text-gray-700 dark:text-gray-300 mb-8">Veja alguns dos momentos incríveis que criamos.</p>
                 <div class="grid grid-cols-2 md:grid-cols-3 gap-4 lg:gap-8">
-                    <img src="https://placehold.co/400x300/e0e0e0/000000?text=Evento+1" alt="Evento 1" class="rounded-lg shadow-md hover:scale-105 transition-transform duration-300">
-                    <img src="https://placehold.co/400x300/d0d0d0/000000?text=Evento+2" alt="Evento 2" class="rounded-lg shadow-md hover:scale-105 transition-transform duration-300">
-                    <img src="https://placehold.co/400x300/c0c0c0/000000?text=Evento+3" alt="Evento 3" class="rounded-lg shadow-md hover:scale-105 transition-transform duration-300">
-                    <img src="https://placehold.co/400x300/b0b0b0/000000?text=Evento+4" alt="Evento 4" class="rounded-lg shadow-md hover:scale-105 transition-transform duration-300">
-                    <img src="https://placehold.co/400x300/a0a0a0/000000?text=Evento+5" alt="Evento 5" class="rounded-lg shadow-md hover:scale-105 transition-transform duration-300">
-                    <img src="https://placehold.co/400x300/909090/000000?text=Evento+6" alt="Evento 6" class="rounded-lg shadow-md hover:scale-105 transition-transform duration-300">
+                    <img src="https://placehold.co/400x300/e0e0e0/000000?text=Evento+1" alt="Evento 1" class="rounded-lg shadow-md hover:scale-105 transition-transform duration-300" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="https://placehold.co/400x300/d0d0d0/000000?text=Evento+2" alt="Evento 2" class="rounded-lg shadow-md hover:scale-105 transition-transform duration-300" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="https://placehold.co/400x300/c0c0c0/000000?text=Evento+3" alt="Evento 3" class="rounded-lg shadow-md hover:scale-105 transition-transform duration-300" data-aos="zoom-in" data-aos-delay="300">
+                    <img src="https://placehold.co/400x300/b0b0b0/000000?text=Evento+4" alt="Evento 4" class="rounded-lg shadow-md hover:scale-105 transition-transform duration-300" data-aos="zoom-in" data-aos-delay="400">
+                    <img src="https://placehold.co/400x300/a0a0a0/000000?text=Evento+5" alt="Evento 5" class="rounded-lg shadow-md hover:scale-105 transition-transform duration-300" data-aos="zoom-in" data-aos-delay="500">
+                    <img src="https://placehold.co/400x300/909090/000000?text=Evento+6" alt="Evento 6" class="rounded-lg shadow-md hover:scale-105 transition-transform duration-300" data-aos="zoom-in" data-aos-delay="600">
                 </div>
             </div>
         </section>
 
         <!-- Secção 2: Sobre o Serviço -->
         <section id="sobre" class="section-snap flex flex-col items-center justify-center p-8 bg-white dark:bg-gray-800 transition-all duration-500">
-            <div class="max-w-4xl text-center">
+            <div class="max-w-4xl text-center" data-aos="fade-right">
                 <h2 class="text-4xl font-extrabold text-gray-900 dark:text-white mb-6">Fique tranquilo, Nós Cuidamos de tudo</h2>
                 <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
                     Nossa missão é transformar suas ideias em eventos memoráveis. Oferecemos soluções completas para festas, conferências, casamentos e mais. Com uma equipe dedicada e tecnologia de ponta, garantimos que cada detalhe seja cuidado, permitindo que você aproveite o momento sem preocupações. Nosso foco é a sua experiência e a satisfação de todos os convidados.
@@ -88,19 +90,19 @@
 
         <!-- Secção 3: Produtos Disponibilizados -->
         <section id="produtos" class="section-snap flex flex-col items-center justify-center p-8 bg-gray-100 dark:bg-gray-900 transition-all duration-500">
-            <div class="max-w-4xl text-center">
+            <div class="max-w-4xl text-center" data-aos="fade-up">
                 <h2 class="text-4xl font-extrabold text-gray-900 dark:text-white mb-6">Produtos Disponibilizados</h2>
                 <p class="text-lg text-gray-700 dark:text-gray-300 mb-8">Conheça o que temos a oferecer para o seu evento.</p>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <div class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md transition-all duration-300 hover:scale-105">
+                    <div class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md transition-all duration-300 hover:scale-105" data-aos="fade-up" data-aos-delay="100">
                         <h3 class="text-2xl font-semibold mb-2 text-gray-900 dark:text-white">Pacote Básico</h3>
                         <p class="text-gray-700 dark:text-gray-300">Serviços essenciais para eventos de pequeno porte.</p>
                     </div>
-                    <div class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md transition-all duration-300 hover:scale-105">
+                    <div class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md transition-all duration-300 hover:scale-105" data-aos="fade-up" data-aos-delay="200">
                         <h3 class="text-2xl font-semibold mb-2 text-gray-900 dark:text-white">Pacote Premium</h3>
                         <p class="text-gray-700 dark:text-gray-300">Soluções completas com personalização total.</p>
                     </div>
-                    <div class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md transition-all duration-300 hover:scale-105">
+                    <div class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md transition-all duration-300 hover:scale-105" data-aos="fade-up" data-aos-delay="300">
                         <h3 class="text-2xl font-semibold mb-2 text-gray-900 dark:text-white">Aluguel de Equipamentos</h3>
                         <p class="text-gray-700 dark:text-gray-300">Opção para alugar equipamentos de alta qualidade.</p>
                     </div>
@@ -110,10 +112,10 @@
 
         <!-- Secção 4: Demonstrativos -->
         <section id="demonstrativos" class="section-snap flex flex-col items-center justify-center p-8 bg-white dark:bg-gray-800 transition-all duration-500">
-            <div class="max-w-4xl text-center">
+            <div class="max-w-4xl text-center" data-aos="zoom-in">
                 <h2 class="text-4xl font-extrabold text-gray-900 dark:text-white mb-6">Demonstração de Serviço</h2>
                 <p class="text-lg text-gray-700 dark:text-gray-300 mb-8">Veja um de nossos eventos em ação.</p>
-                <div class="rounded-lg overflow-hidden shadow-xl w-full max-w-2xl">
+                <div class="rounded-lg overflow-hidden shadow-xl w-full max-w-2xl" data-aos="zoom-in-up">
                     <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
@@ -121,11 +123,11 @@
 
         <!-- Secção 5: Detalhamento sobre produtos -->
         <section id="detalhes" class="section-snap flex flex-col items-center justify-center p-8 bg-gray-100 dark:bg-gray-900 transition-all duration-500">
-            <div class="max-w-4xl text-center">
+            <div class="max-w-4xl text-center" data-aos="fade-right">
                 <h2 class="text-4xl font-extrabold text-gray-900 dark:text-white mb-6">Detalhes dos Nossos Pacotes</h2>
                 <p class="text-lg text-gray-700 dark:text-gray-300 mb-8">Explore as opções e encontre a ideal para você.</p>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <div class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md">
+                    <div class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md" data-aos="fade-right" data-aos-delay="100">
                         <h3 class="text-2xl font-semibold mb-4 text-gray-900 dark:text-white">Pacote Essencial</h3>
                         <ul class="list-disc list-inside text-left text-gray-700 dark:text-gray-300 space-y-2">
                             <li>Consultoria inicial</li>
@@ -134,7 +136,7 @@
                             <li>Coordenação no dia do evento</li>
                         </ul>
                     </div>
-                    <div class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md">
+                    <div class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md" data-aos="fade-left" data-aos-delay="200">
                         <h3 class="text-2xl font-semibold mb-4 text-gray-900 dark:text-white">Pacote Completo</h3>
                         <ul class="list-disc list-inside text-left text-gray-700 dark:text-gray-300 space-y-2">
                             <li>Tudo do Pacote Essencial</li>
@@ -150,11 +152,11 @@
 
         <!-- Secção 6: Fale Conosco -->
         <section id="contato" class="section-snap flex flex-col items-center justify-center p-8 bg-white dark:bg-gray-800 transition-all duration-500">
-            <div class="max-w-4xl text-center">
+            <div class="max-w-4xl text-center" data-aos="fade-up">
                 <h2 class="text-4xl font-extrabold text-gray-900 dark:text-white mb-6">Fale Conosco</h2>
                 <p class="text-lg text-gray-700 dark:text-gray-300 mb-8">Estamos prontos para tornar seu evento inesquecível. Entre em contato!</p>
                 
-                <div class="flex justify-center space-x-6 mb-8">
+                <div class="flex justify-center space-x-6 mb-8" data-aos="fade-up" data-aos-delay="100">
                     <a href="mailto:contato@evento.com" class="text-gray-600 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">
                         <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/></svg>
                     </a>
@@ -179,6 +181,8 @@
         </svg>
     </button>
     
+    <!-- Inclui a biblioteca AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const containerSnap = document.querySelector('.container-snap');
@@ -228,6 +232,13 @@
                     top: 0,
                     behavior: 'smooth'
                 });
+            });
+
+            // Inicializa AOS
+            AOS.init({
+                duration: 800,
+                easing: 'ease-in-out-cubic',
+                once: true // Animações acontecem apenas uma vez ao rolar para baixo
             });
         });
     </script>
